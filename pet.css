@@ -1,0 +1,35 @@
+.card{
+    width:400px;
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+}
+img{
+    width:50%;
+    border-radius:40px;
+    /* height:20%; */
+}
+ h2{
+    color:brown;
+ }
+
+ span{
+    color:cyan;
+ }
+ h4{
+    text-align:right;
+    color:chartreuse;
+ }
+
+ #pets{
+    display:flex;
+    justify-content:space-evenly;
+ }
+
+ /* to make it responsive for ex- iphone */
+ @media(max-width:375px){
+    #pets{
+        flex-wrap:wrap;
+    }
+ }
